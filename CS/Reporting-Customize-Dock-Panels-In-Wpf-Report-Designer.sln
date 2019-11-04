@@ -1,7 +1,7 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28010.2016
+VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDockPanelCustomization", "Reporting-Customize-Dock-Panels-In-Wpf-Report-Designer\WpfDockPanelCustomization.csproj", "{10904B04-07DA-40D7-A913-DC11F289744D}"
 EndProject
@@ -15,11 +15,11 @@ Global
 		{10904B04-07DA-40D7-A913-DC11F289744D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10904B04-07DA-40D7-A913-DC11F289744D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10904B04-07DA-40D7-A913-DC11F289744D}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
+		EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {293DEE51-28DB-4A80-BF97-311DEDC88981}
+		SolutionGuid = {DFDA3266-0E8A-4B44-A421-4E7F5A7C28FA}
 	EndGlobalSection
 EndGlobal
