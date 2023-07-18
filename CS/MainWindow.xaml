@@ -4,21 +4,25 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" WindowState="Maximized" UseLayoutRounding="True">
     <dxrud:ReportDesigner Name="designer">
-        <!--Close the Group and Sort Panel-->
+        <!--Close the Group and Sort Panel.-->
         <dxrud:ReportDesigner.GroupAndSortPanelOptions>
             <dxrud:GroupAndSortPanelOptions Visibility="Closed"/>
         </dxrud:ReportDesigner.GroupAndSortPanelOptions>
-        <!--Enable the Report Explorer's auto-hide mode-->
+        <!--Set auto-hide mode for the Report Explorer.-->
         <dxrud:ReportDesigner.ReportExplorerOptions>
             <dxrud:ReportExplorerOptions Visibility="Hidden" />
         </dxrud:ReportDesigner.ReportExplorerOptions>
-        <!--Change the sort order in the Field List-->
+        <!--Sort the fields in the Field List in descending order.-->
         <dxrud:ReportDesigner.FieldListOptions>
             <dxrud:FieldListOptions SortOrder="Descending"/>
         </dxrud:ReportDesigner.FieldListOptions>
-        <!--Disable the Property Grid's tabbed view and display favorite properties-->
+        <!--Do not group properties into tabs and show favorite properties.-->
         <dxrud:ReportDesigner.PropertyGridOptions>
             <dxrud:PropertyGridOptions UseTabbedView="False" ShowFavoriteProperties="True"/>
         </dxrud:ReportDesigner.PropertyGridOptions>
+        <!--Hide the Report Design Analyzer panel.-->
+        <dxrud:ReportDesigner.ErrorPanelOptions >
+            <dxrud:ErrorPanelOptions  Visibility="Closed" />
+        </dxrud:ReportDesigner.ErrorPanelOptions>
     </dxrud:ReportDesigner>
 </Window>
